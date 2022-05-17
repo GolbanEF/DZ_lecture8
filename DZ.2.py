@@ -25,6 +25,6 @@ if __name__ == '__main__':
     # Получить путь к загружаемому файлу и токен от пользователя
     filename = 'Fils/Text.txt'
     path_to_file = 'task'
-    token = "AQAAAABWffyKAADLW1VTbMLaZ0WvrdjyGFEv1As"
+    token = ""
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file)
